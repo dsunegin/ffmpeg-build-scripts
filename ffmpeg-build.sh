@@ -3,6 +3,7 @@
 # FFmpeg
 # Complete Compilation and get ready to use:
 # ffmpeg (also ffprobe, lame, x265 and x264)
+# Adapted from the build steps in this guide http://trac.ffmpeg.org/wiki/CompilationGuide/Centos
 
 # Notice:
 # ffserver has been removed on 2018-01-06. If you still need it checkout commit 2ca65fc or use the 3.4 release branch.
@@ -47,8 +48,6 @@ hash -r
 
 echo ""
 echo "Compilation is now complete and ffmpeg (also ffprobe, lame, x265 and x264) should now be ready to use."
-echo "Warning:"
-echo "          ffserver has been removed on 2018-01-06. If you still need it checkout commit 2ca65fc or use the 3.4 release branch."
 echo "Tip:"
 echo "          Keep the ffmpeg_sources directory and all contents if you intend to [#Update]"
 echo ""
