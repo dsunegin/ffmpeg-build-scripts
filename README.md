@@ -11,7 +11,6 @@ Compile FFmpeg on CentOS. Should also work for recent Red Hat Enterprise Linux (
 * mp3: MPEG-1 or MPEG-2 Audio Layer III
 * ogg: Free, open container format
 * vorbis: Lossy audio compression format
-* theora: Free lossy video compression format
 
 Installation
 ------------
